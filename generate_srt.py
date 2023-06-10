@@ -11,7 +11,7 @@ from faster_whisper import download_model, WhisperModel
 
 # SETTINGS
 VIDEO_ID = sys.argv[1]
-MODEL_SIZE = "tiny"
+MODEL_SIZE = "large-v2"
 COMPUTE_TYPE = "float32"
 AUDIO_DIR = "tmp_audio"
 OUTPUT_DIR = "tmp_output"
