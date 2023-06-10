@@ -11,10 +11,10 @@ from faster_whisper import download_model, WhisperModel
 
 # SETTINGS
 VIDEO_ID = sys.argv[1]
-MODEL_SIZE = "large-v2"
+MODEL_SIZE = "tiny"
 COMPUTE_TYPE = "float32"
-AUDIO_DIR = "audio"
-OUTPUT_DIR = "output"
+AUDIO_DIR = "tmp_audio"
+OUTPUT_DIR = "tmp_output"
 
 DISCLAIMER_TIME = 30000
 DISCLAIMER = 'DISCLAIMER: Subtitles are machine generated.\n'
@@ -31,7 +31,7 @@ metadata = None
 with yt_dlp.YoutubeDL() as ydl:
     metadata = ydl.extract_info(f"https://www.youtube.com/watch?v={VIDEO_ID}", download=False)
 
-# Prepare the output filename
+# Prepare the tmp_output filename
 uploader_id = metadata['uploader_id'][1:]  # Get rid of the @
 release_timestamp = metadata['release_timestamp']
 if release_timestamp is None:
@@ -42,10 +42,10 @@ sha = repo.head.object.hexsha
 short_sha = repo.git.rev_parse(sha, short=7)
 
 output_filename = f"{uploader_id}-{release_timestamp}-{VIDEO_ID}-FuzzAiSubs-{short_sha}.srt"
-log.info(f"SRT output filename will be {output_filename}")
+log.info(f"SRT tmp_output filename will be {output_filename}")
 
 audio_file_location = os.path.join(AUDIO_DIR, f"{VIDEO_ID}.webm")
-log.info(f"Downloading audio to {audio_file_location}")
+log.info(f"Downloading tmp_audio to {audio_file_location}")
 
 ydl_opts = {
     'format': 'bestaudio/best',

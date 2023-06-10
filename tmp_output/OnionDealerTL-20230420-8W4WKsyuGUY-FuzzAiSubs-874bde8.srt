@@ -1,0 +1,85 @@
+1
+00:00:00,000 --> 00:00:00,001
+{"VIDEO_ID":"8W4WKsyuGUY","MODEL_SIZE":"tiny","COMPUTE_TYPE":"float32","VERSIONS":{"ctranslate2":"3.15.1","faster_whisper":"0.6.0","yt-dlp":"2023.3.4","onnxruntime":"1.15.0"},"TranscriptionOptions":{"beam_size":1,"best_of":5,"patience":1,"length_penalty":1,"log_prob_threshold":-1.0,"no_speech_threshold":0.6,"compression_ratio_threshold":2.4,"condition_on_previous_text":true,"temperatures":[0.0,0.2,0.4,0.6,0.8,1.0],"initial_prompt":null,"prefix":null,"suppress_blank":true,"suppress_tokens":[-1],"without_timestamps":false,"max_initial_timestamp":1.0,"word_timestamps":false,"prepend_punctuations":"\"'\u201c\u00bf([{-","append_punctuations":"\"'.\u3002,\uff0c!\uff01?\uff1f:\uff1a\u201d)]}\u3001"},"VadOptions":{"threshold":0.5,"min_speech_duration_ms":250,"max_speech_duration_s":Infinity,"min_silence_duration_ms":2000,"window_size_samples":1024,"speech_pad_ms":400}}
+
+2
+00:00:00,001 --> 00:00:29,900
+DISCLAIMER: Subtitles are machine generated.
+There is no guarantee that the translation is accurate or correct.
+
+3
+00:00:28,660 --> 00:00:39,810
+Guys is gone...
+
+4
+00:00:39,930 --> 00:00:43,430
+If you areiks, leave the comments below...
+
+5
+00:00:44,130 --> 00:00:48,490
+If I'm crazy...
+
+6
+00:00:48,490 --> 00:00:50,510
+Comments...
+
+7
+00:00:50,510 --> 00:00:50,970
+If you are now sleeping on that ski
+
+8
+00:00:51,150 --> 00:00:55,030
+What was that stupid F楽 chant?
+
+9
+00:00:55,030 --> 00:00:56,950
+At the beginning of the gym, I got that impression,
+
+10
+00:00:56,950 --> 00:00:59,950
+but when I arrived in the gym, I realized I was getting a lot afters...
+
+11
+00:00:59,950 --> 00:01:02,370
+That was once to get a lot of心...
+
+12
+00:01:02,370 --> 00:01:03,570
+eh...
+
+13
+00:01:03,570 --> 00:01:05,570
+I'm a little nervous.
+
+14
+00:01:05,570 --> 00:01:07,570
+I'm a little nervous.
+
+15
+00:01:07,570 --> 00:01:09,570
+I'm a little nervous.
+
+16
+00:01:33,570 --> 00:01:37,570
+I'm a little nervous…
+
+17
+00:01:37,570 --> 00:01:38,570
+Please say hello to my friends.
+
+18
+00:01:38,570 --> 00:01:43,580
+I'm a little nervous.
+
+19
+00:01:43,580 --> 00:01:47,580
+Please say hello to my friends.
+
+20
+00:01:47,580 --> 00:01:57,920
+Please say hello to my friends.
+
+21
+00:01:57,920 --> 00:02:01,920
+Thank you for watching!
+

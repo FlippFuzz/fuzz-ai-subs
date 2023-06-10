@@ -3,5 +3,5 @@ __pycache__
 venv/
 scratchpad
 
-code/audio/*.webm
-code/output/*.webm
+tmp_audio/*.webm
+tmp_output/*.webm
